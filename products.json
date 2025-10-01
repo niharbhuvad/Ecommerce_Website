@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1,
+    "name": "Apple 2025 MacBook Air 13-inch Laptop",
+    "price": "$20.00",
+    "category":"Electronics",
+    "tags": ["laptop", "apple", "macbook", "electronics"],
+    "images": ["Products/1.jpg", "Products/1a.jpg", "Products/1b.jpg", "Products/1c.jpg", "Products/1d.jpg"],
+    "description": "Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple Intelligence, 13.6-inch Liquid Retina Display, 16GB Unified Memory, 256GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight",
+    "about": [
+"SPEED OF LIGHTNESS — MacBook Air with the M4 chip lets you blaze through work and play. With Apple Intelligence,* up to 18 hours of battery life,* and an incredibly portable design, you can take on anything, anywhere.",
+"SUPERCHARGED BY M4 — The Apple M4 chip brings even more speed and fluidity to everything you do, like working between multiple apps, editing videos, or playing graphically demanding games.",
+"BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.*",
+"UP TO 18 HOURS OF BATTERY LIFE — MacBook Air delivers the same incredible performance whether it’s running on battery or plugged in.*",
+"A BRILLIANT DISPLAY — The 13.6-inch Liquid Retina display supports 1 billion colors.* Photos and videos pop with rich contrast and sharp detail, and text appears supercrisp.",
+"LOOK AND SOUND YOUR BEST — Everything looks and sounds amazing with a 12MP Center Stage camera, three mics, and four speakers with Spatial Audio.",
+"CONNECT IT ALL — MacBook Air features two Thunderbolt 4 ports, a MagSafe charging port, a headphone jack, Wi-Fi 6E,* and Bluetooth 5.3. And it supports up to two external displays.",
+"APPS FLY IN MACOS — All your favorites run lightning fast in macOS, including Microsoft 365 Copilot, Adobe Creative Cloud, and Google Workspace.*",
+"IF YOU LOVE IPHONE, YOU’LL LOVE MAC — Mac works like magic with your other Apple devices. View and control what’s on your iPhone from your Mac with iPhone Mirroring.* Copy something on iPhone and paste it on Mac. Send texts with Messages from your Mac, or use your Mac to answer FaceTime calls.*",
+"* LEGAL DISCLAIMERS — This is a summary of the main product features. See below to learn more."
+    ],
+    "specs": {
+        "Brand": "Apple",
+        "Model Name": "MacBook Air",
+        "Screen Size": "13.6 Inches",
+        "Color": "Midnight",
+        "Hard Disk Size": "256 GB",
+        "CPU Model": "Apple M4",
+        "Ram Memory Installed Size": "16 GB",
+        "Operating System": "Mac OS",
+        "Special Feature": "Backlit Keyboard, Fingerprint Reader, Lightweight",
+        "Graphics Card Description": "Integrated"
+
+    }
+  },
+  {
+    "id": 2,
+    "name": "MoKo Case for iPad (A16) ",
+    "price": "$25.00",
+    "category": "Accessories",
+    "tags": ["ipad", "case", "accessories", "moKo","mobile cover"],
+    "images": ["Products/2.jpg", "Products/2a.jpg", "Products/2b.jpg", "Products/2c.jpg", "Products/2d.jpg"],
+    "description": "Another awesome product with premium quality.",
+"about": [
+  "Compatibility: Specially designed for iPad (A16) 11th generation 11-inch 2025 (Model: A3354, A3355, A3356), iPad 10th generation 10.9-inch 2022 (Model: A2696, A2757, A2777). Note: It will not be compatible with other models. Please check your iPad model before purchase.",
+  "Excellent Quality: Our iPad 11th/10th Gen 11/10.9 inch case 2025/2022 is made of premium PU leather exterior, soft microfiber lining, and coverage with translucent PC back shell, providing total full protection for your precious tablet.",
+  "Adjustable Angles: Strong magnetic connection to create a stable viewing/typing stand for your iPad (A16) 11th generation tablet 2025 or iPad 10th generation tablet 2022. Two viewing angles are provided for watching, reading, or typing. Satisfying your needs. Free your hands for other entertainments.",
+  "Support Apple 1st/USB-C Pencil Charging and Touch ID: With the precise cutouts, this new iPad 11/10.9 inch Case 2025/2022 supports 1st/USB-C Apple pencil charging (Need Apple USB-C to Apple Pencil Adapter) and Touch ID functions. Also allows you to access all features and controls, such as speakers, earphones, and volume buttons. (Pencil is not included)",
+  "Auto Wake/Sleep: With the built-in magnetic, this case for iPad 11th generation 2025 or iPad 10th generation 2022 can automatically wake up your device or put it into sleep with the lid open or closed. Protects and extends battery life."
+],
+"specs": {
+  "Brand": "MoKo",
+  "Color": "Navy Blue",
+  "Compatible Devices": "iPad 11th generation 11-inch 2025 (Model: A3354, A3355, A3356), iPad 10th generation 10.9-inch 2022 (Model: A2696, A2757, A2777)",
+  "Form Factor": "Case",
+  "Shell Type": "hard, soft"
+}}
+,
+  {
+    "id": 3,
+    "name": "De'Longhi Espresso Machine",
+    "price": "$30.00",
+    "category": "Kitchen Appliances",
+    "tags": ["espresso", "coffee", "kitchen", "appliances","machine"],
+    "images": ["Products/3.jpg","Products/3a.jpg","Products/3b.jpg","Products/3c.jpg","Products/3d.jpg"],
+    "description": "Professional-grade espresso machine for café-quality coffee at home.",
+    "about": [
+      "Professional Brewing System: 15-bar pump pressure ensures optimal extraction for rich, full-bodied espresso with perfect crema. Thermoblock technology maintains consistent brewing temperature for superior taste.",
+      "Dual Function: Brew authentic espresso and cappuccino with the manual frother. Steam wand creates rich, creamy froth for lattes, cappuccinos, and other milk-based beverages like a professional barista.",
+      "Easy Operation: Simple control panel with indicator lights for power, temperature, and brewing status. Self-priming system eliminates startup preparation, ready to brew in just 40 seconds.",
+      "Premium Build Quality: Durable stainless steel construction with silver finish complements any kitchen décor. Removable water tank (1.4L capacity) and drip tray for easy cleaning and maintenance.",
+      "Versatile Compatibility: Works with ground coffee and ESE pods for convenience. Adjustable cup tray accommodates different cup sizes from espresso cups to tall travel mugs.",
+      "Energy Efficient: Automatic shut-off after 9 minutes of inactivity saves energy. Compact design (17.32\"D x 9.45\"W x 14.17\"H) fits perfectly on kitchen counters without taking up excessive space."
+    ],
+    "specs": {
+      "Brand": "De'Longhi",
+      "Color": "Silver",
+      "Product Dimensions": "17.32\"D x 9.45\"W x 14.17\"H",
+      "Special Feature": "Programmable",
+      "Coffee Maker Type": "Espresso Machine",
+      "Water Tank": "1.4L",
+      "Pressure": "15 bar"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hisense 65-Inch 4K QLED Smart TV",
+    "price": "$30.00",
+    "category": "Electronics",
+    "tags": ["tv", "4k", "qled", "smart", "electronics","hisense","television","electronics"],
+    "images": ["Products/4.jpg","Products/4a.jpg","Products/4b.jpg","Products/4c.jpg","Products/4d.jpg"],
+    "description": "Premium 65-inch 4K QLED Smart TV with Alexa built-in and advanced gaming features.",
+    "about": [
+      "Stunning 4K QLED Display: 65-inch screen with Quantum Dot technology delivers over 1 billion colors and WCG-Wide Color Gamut for incredibly vibrant and lifelike images. 4K Ultra HD resolution (3840x2160) provides sharp, detailed picture quality.",
+      "Advanced Smart Features: Alexa Built-In allows voice control without remote. Works seamlessly with Apple HomeKit and AirPlay for easy content streaming from iOS devices. Access thousands of apps, games, and streaming services.",
+      "Immersive Audio Experience: Dolby Vision Atmos technology creates three-dimensional sound that moves around you for cinema-like audio experience. Multiple built-in speakers deliver clear dialogue and rich sound quality.",
+      "Gaming Excellence: Game Mode Plus reduces input lag and optimizes picture settings for smooth, responsive gaming. 60Hz refresh rate ensures fluid motion for fast-paced games and sports content.",
+      "HDR Technology: HDR 10+ support automatically adjusts brightness and contrast scene by scene for optimal viewing experience. Enhanced detail in both bright and dark scenes for more realistic picture quality.",
+      "Easy Connectivity: Multiple HDMI ports, USB connections, and wireless capabilities. Built-in Wi-Fi for seamless streaming and smart home integration. Compatible with all major streaming platforms and devices."
+    ],
+    "specs": {
+      "Screen Size": "65 Inches",
+      "Brand": "Hisense",
+      "Display Technology": "LCD, LED, QLED, WCG-Wide Color Gamut",
+      "Resolution": "4K Ultra HD (3840x2160)",
+      "Refresh Rate": "60 Hz",
+      "Special Feature": "Alexa Built In, Dolby Vision Atmos, Game Mode Plus, HDR 10+, Works with Apple HomeKit / Airplay",
+      "Smart Platform": "Android TV",
+      "Connectivity": "Wi-Fi, HDMI, USB"
+    }
+  },{
+    "id": 5,
+    "name": "AOC Q27G3XMN 27\" 2K QHD Gaming Monitor",
+    "price": "$40.00",
+    "category": "Electronics",
+    "tags": ["monitor", "gaming", "electronics", "aoc","display","screen"],
+    "images": ["Products/5.jpg","Products/5a.jpg","Products/5b.jpg","Products/5c.jpg","Products/5d.jpg"],
+    "description": "AOC Q27G3XMN 27 2K QHD Gaming Monitor, 2560x1440, Mini LED, 180Hz, HDMI 2.0 x 1, DisplayPort 1.4 x1, Adaptive Sync, Xbox/PS5/Switch Ready, 3-Year Zero-Bright-dot",
+    "about": [
+"Witness virtual worlds come to life on a stunning VA panel equipped with state-of-the-art Mini-LED backlight technology and 336 individual dimming zones that produce true blacks and brighter whites",
+"With Panel resolution 2560x1440, this monitor boasts a pixel density that delivers brilliantly sharp images with the finest details",
+"Lightning-fast 180Hz (overclocked, via DP1.4) refresh rate and rapid 1ms GtG response time lets you target moving opponents with precision, putting you ahead of the game. Fast-moving action and dramatic transitions will be rendered smoothly without the effects of ghosting",
+"Adaptive-Sync ensures ultra-smooth, tear-free team fights for flawless skill shots and stutter-free loading times",
+"The 3-sided frameless display with calibrated color gamut provides true-to-life images. Impressive 134% sRGB color gamut and VESA DisplayHDR 1000 brings characters to life and creates stunning imagery with rich details and diverse contrast"
+    ],
+    "specs": {
+      "Brand": "AOC",
+      "Screen Size": "27 Inches",
+      "Resolution": "QHD (2560 x 1440)",
+      "Aspect Ratio": "16:9",
+      "Screen Surface Description": "Glossy"
+    }
+  },
+  {
+    "id": 6,
+    "name": "GTPLAYER Gaming Chair",
+    "price": "$50.00",
+    "category": "Furniture",
+    "tags": ["chair", "gaming", "furniture", "gtplayer","office chair","computer chair"],
+    "images": ["Products/6.jpg","Products/6a.jpg","Products/6b.jpg","Products/6c.jpg","Products/6d.jpg"],
+    "description": "GTPLAYER Gaming Chair, Computer Chair with Footrest and Lumbar Support, Height Adjustable Game Chair with 360°-Swivel Seat and Headrest and for Office or Gaming (White)",
+    "about": [
+      "Most Comfortable And Relaxing: Equipped with headrest and lumbar pillow. When your neck feels sore from gaming or working with head down for a long time, the headrest will relieve your fatigue. When tired from maintaining a same sitting posture, please rest assured to lean back and charge your waist pillow, it will relax your tired waist energetically.",
+      "More Stable Than Others: Common gaming chairs are equipped with plastic legs generally to save costs, but we still insist on applying the same material as the built-in metal frame. No fear of high or low temperature, no fear of the sunshine, no fear of wind, it will not rust and break. Whether child rolls on the chair or a pet jumps up excitedly, the sturdy metal legs will keep the chair stable firmly.",
+      "Liberate Your Feet: Will you feel tired for sitting all the time? Sure. Then you can choose the chair with footrest to relax your feet. When you don’t want to straighten your back and sit, just take out the footrest, put your feet up, turn on your favorite music, and start enjoying the comfort! And don’t worry about clean, it is also made of high-quality PU leather, just wipe it with a soft cloth and it will shine as new.",
+      "Reject Short-Lived Chairs: We never hesitate to apply materials. Armrests must be padded from the position of the elbow to the wrist, built-in metal frame must be wider, and the foam under the leather must be rich, it can’t collapse as if we are sitting on a hard stone when leaning up. The chair has gone through thousands of rotation and sitting experiments before mass production. Sufficient and premium materials can ensure the chair to withstand long-term use.",
+      "Worry-Free Purchase: A detailed instruction will be sent to you along with all accessories so that you can assemble the chair easily. Free replacement or refund within 30 days. Free replacement or repair within 1 year. If you have any questions or suggestions, please feel free to contact us, we will do our best to make our customers satisfied.",
+      "【FSC-Certified】 Chair cushion inner support of the Chair is made of FSC-Certified wood."
+    ],
+    "specs": {
+      "Brand": "GTPLAYER",
+      "Color": "White",
+      "Product Dimensions": "20.08\"D x 20.5\"W x 49.21\"H",
+      "Size": "22D x 20W x 51H Inch",
+      "Back Style": "Solid Back"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Brother Smart 1360 wireless color printer",
+    "price": "$60.00",
+    "category": "Office Supplies",
+    "tags": ["printer", "brother", "office", "supplies","inkjet","all-in-one"],
+    "images": ["Products/7.jpg","Products/7a.jpg","Products/7b.jpg","Products/7c.jpg","Products/7d.jpg"],
+    "description": "Brother Work Smart 1360 Wireless Color Inkjet All-in-One Printer with Automatic Duplex Printing and 1.8” Color Display | Includes Refresh Subscription Trial(1) (MFC-J1360DW) (Uses LC501 Series Inks)",
+    "about": [
+      "BEST FOR HOME AND HOME OFFICE: Get all your work done with an all-in-one multifunction printer. Print, copy, and scan on one compact printer for home use and home offices. Brother inkjet printers produce beautiful prints for results that stand out.",
+      "EASY TO USE WITH CLOUD APP CONNECTIONS: Print from and scan to popular Cloud apps(2), including Google Drive, Dropbox, Box, OneDrive, and more from the simple-to-use 1.8” color display on your printer.",
+      "PRODUCTIVITY-FOCUSED PRINTING FEATURES: This printer includes automatic duplex (2-sided) printing, a 20-sheet single-sided Automatic Document Feeder (ADF)(3), and a 150-sheet paper tray(3). Engineered to print at fast speeds of up to 16 pages per minute (ppm) in black and up to 9 ppm in color(4).",
+      "MULTIPLE CONNECTION OPTIONS: Connect your way. Interface with your printer on your wireless network or via USB. Print from your mobile device(5) using AirPrint, Mopria, Brother iPrint&Scan, and more.",
+      "THE BROTHER MOBILE CONNECT APP: Go mobile with the Brother Mobile Connect app(5) that delivers easy onscreen menu navigation for printing, copying, scanning, and device management from your mobile device. Monitor your ink usage with Page Gauge to help ensure you don’t run out(6) ."
+    ],
+    "specs": {
+      "Brand": "Brother",
+      "Connectivity Technology": "USB, Wi-Fi",
+      "Printing Technology": "Inkjet",
+      "Special Feature": "Auto Document Feeder, Auto-Duplex, Energy Star",
+      "Color": "Black",
+      "Model Name": "MFCJ1360DW"
+    }
+  },
+  {
+    "id": 8,
+    "name": "JBL Tune 720BT Wireless On-Ear Headphones",
+    "price": "$70.00",
+    "category": "Electronics",
+    "tags": ["headphones", "jbl", "wireless", "electronics","audio","music"],
+    "images": ["Products/8.jpg","Products/8a.jpg","Products/8b.jpg","Products/8c.jpg","Products/8d.jpg"],
+    "description": "JBL Tune 720BT - Wireless Over-Ear Headphones with JBL Pure Bass Sound, Bluetooth 5.3, Up to 76H Battery Life and Speed Charge, Lightweight, Comfortable and Foldable Design (Black)",
+    "about": [
+      "JBL Pure Bass Sound: The JBL Tune 720BT features the renowned JBL Pure Bass sound, the same technology that powers the most famous venues all around the world.",
+      "Wireless Bluetooth 5.3 technology: Wirelessly stream high-quality sound from your smartphone without messy cords with the help of the latest Bluetooth technology.",
+      "Customize your listening experience: Download the free JBL Headphones App to tailor the sound to your taste with the EQ. Voice prompts in your desired language guide you through the Tune 720BT features.",
+      "Customize your listening experience: Download the free JBL Headphones App to tailor the sound to your taste by choosing one of the pre-set EQ modes or adjusting the EQ curve according to your content, your style, your taste.",
+      "Lightweight and Compact Design: The JBL Tune 720BT is designed for portability, making it easy to carry and use for extended periods.",
+      "Hands-free calls with Voice Aware: Easily control your sound and manage your calls from your headphones with the convenient buttons on the ear-cup. Hear your voice while talking, with the help of Voice Aware.",
+      "Built-in Bluetooth: Easily connect to your smartphone or tablet for quick sharing on social media or with friends and family."
+    ],
+    "specs": {
+      "Brand": "JBL",
+      "Color": "Black",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "32 Ohm"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Magnetic Phone Holder for Laptop",
+    "price": "$80.00",
+    "category": "Accessories",
+    "tags": ["phone holder", "magnetic", "accessories", "laptop","monitor","desk"],
+    "images": ["Products/9.jpg","Products/9a.jpg","Products/9b.jpg","Products/9c.jpg","Products/9d.jpg"],
+    "description": "Magnetic Phone Holder for Laptop for MagSafe for iPhone 17/16/15/14/13/12 & All Phones, 180°Adjustable Phone Side Mount for Computer Monitor for Tesla, Desktop Cell Phone Bracket, Gray",
+    "about": [
+      "Adjustable Magnetic Phone Holder: The new upgraded adjustable magnetic phone holder allows you firmly attach your phone to any laptop, desktop monitor, computer monitor for Tesla. You can easily view text messages or answer calls at work, enjoy double screen interactive, improve office efficiency.",
+      "Work for All Phones: Specially designed for iPhone 16/15/14/13/12 series phones. Compatible with MagSafe cases. This laptop/ monitor side magnetic phone mount fits for iPhone 16/15/14/13/12 series directly. The car phone holder also fits for Tesla model 3/X/Y/S. Our product is equipped with a magnetic ring. All other mobile phone models require a magnetic ring.",
+      "Easy to Use: Just tear the protective 3M tape off the mounting base, attach it to the back of the desktop, laptop monitor or computer monitor for Tesla. With our alignment card , you can easily attach the magnetic ring accurately to your phone.",
+      "Light and Compact: Magnetic phone holder for Laptop is made of lightweight aluminum alloy material. It has a small volume that saving space and making it easy to carry anywhere. It is the perfect choice for travel, meetings, analysis, business trips and so on.",
+      "What's in The Box: 1 x Laptop Phone Holder, 1 x Alignment Card for Phone, 1 x 3M Tape, 1 x Magnetic Ring, 1 x Gift Box. Correct Installation: Please keep the arrow upwards while installing. Please wait at least 6 hours before use.",
+      "Note: Please make sure the surface is clean and dry before installation. Not suitable for leather, fabric, or uneven surfaces."
+    ],
+    "specs": {
+      "Brand": "MAGDIGITEH",
+      "Color": "Gray",
+      "Compatible Devices": "Fits for Tesla Model X/S/Y/3, Desktop Monitor, Laptop, Tablets",
+      "Compatible Phone Models": "Compatible with iPhone 16/15/14/13/12 Mini, Plus, Pro, Max. All other mobile phone models with a magnetic ring.",
+      "Mounting Type": "Laptop Phone Mount"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Litwaro Desk Side Storage",
+    "price": "$90.00",
+    "category": "Accessories",
+    "tags": ["desk organizer", "laptop holder", "accessories", "office","storage","desk"],
+    "images": ["Products/10.jpg","Products/10a.jpg","Products/10b.jpg","Products/10c.jpg","Products/10d.jpg"],
+    "description": "Litwaro Desk Side Storage, No Drill Laptop Holder with Magnetic Pen Holder, Under Desk Laptop Mount with Sticky Headphone Holder, Hanging Desks Organizer Fits Flat Edges 0.4 to 2 (White)",
+    "about": [
+      "【Buffer Pad Protects Laptop】Under desk storage fits most flat edge desks, and the buffer pad inside the tray protects your items from scratches. Litwaro side desk organizer can be attached to desk thickness of 0.4\" to 2\".",
+      "【Sturdy and Reliable】Under desk drawer are well-made and reliable enough to fit seamlessly into most workspaces and can hold up to 22 lbs. Moreover, our earphone holder is stickable, you can use the included headphone hook to stick to the side of your desk or hang your computer bag on the wall.",
+      "No drilling required and no damage to your desk. Litwaro clamp on desk organizer features a simple clip, you just turn the knob to fix it on the edge of your desk. And the practical design of silicone pads and rounded corners can directly prevent your laptop from being scratched.",
+    "【Heat Dissipation Design】Desk side organizer features ventilation holes to ensure your laptop stays cool, preventing any risk of overheating, so you can charge laptop or tablet more easily without taking up desk space.",
+    "【Multi-functional Organizer】This under desk laptop mount can hold laptops, tablets, notebooks, books, files, and more. The magnetic pen holder can hold your pens, pencils, and other small metal items. The headphone holder can hold your headphones or hang your computer bag."
+    ],
+    "specs": {
+      "Specific Uses For Product": "Stationery",
+      "Material": "Carbon Steel",
+      "Special Feature": "Multifunctional",
+      "Color": "White",
+      "Brand": "Litwaro",
+      "Finish Type": "Carbon Steel, Sturdy Metal",
+      "Product Dimensions": "11.8\"D x 1.6\"W x 7.9\"H",
+      "Number of Items": 1,
+      "Manufacturer": "Litwaro"
+    }},
+    {
+    "id": 11,
+    "name": "Desk Organizer and Accessories",
+    "price": "$100.00",
+    "category": "Office Supplies",
+    "tags": ["desk organizer", "monitor stand", "office supplies", "accessories","laptop stand","office desk"],
+    "images": ["Products/11.jpg","Products/11a.jpg","Products/11b.jpg","Products/11c.jpg","Products/11d.jpg"],
+    "description": "Desk Organizer and Accessories, 2-Tier Computer Monitor Stand Riser with Drawer and 2 Pen Holders, Laptop Stand, Office Desk Accessories for Office Supplies, Black",
+    "about": [
+      "【2-Tier Monitor Stand Riser】This computer monitor stand riser features a 2-tier design, which can hold your monitor and laptop at the same time. The top tier can hold monitors up to 32 inches, while the bottom tier can hold laptops up to 17 inches. This design helps to save space on your desk and keep your workspace organized.",
+      "【Sturdy and Durable】Made of high-quality MDF material, this monitor stand is sturdy and durable enough to hold heavy monitors and laptops. The non-slip pads on the bottom of the stand prevent it from sliding or scratching your desk.",
+      "【Multi-functional Organizer】This desk organizer features a drawer and 2 pen holders, which can help you keep your office supplies organized. The drawer is perfect for storing small items like paper clips, sticky notes, and USB drives, while the pen holders can hold your pens, pencils, and other writing utensils.",
+      "【Ergonomic Design】This monitor stand riser is designed to elevate your monitor and laptop to eye level, which helps to reduce neck and eye strain. The ergonomic design promotes better posture and improves overall comfort while working.",
+      "【Easy to Assemble】This monitor stand is easy to assemble and comes with all the necessary hardware and instructions. You can have it set up in just a few minutes.",
+      "【Versatile Use】This desk organizer and monitor stand riser is perfect for use in the office, home office, or study room. It can also be used as a laptop stand for better ventilation and cooling.",
+      "【Save Space】：This 2-Tier monitor stand with drawer and 2 hanging pen holders provides ample storage space to keep your office supplies and office desk accessories neatly organized and easily accessible, keeping your workspace tidy and improving your sense of well-being",
+      "【Sleek and Aesthetic】：This desktop organizer features a modern minimalist design that blends seamlessly with any office decor. It not only enhances functionality but also adds a touch of style and aesthetic to your workspace, making it an essential piece for your office organization efforts"
+    ],
+    "specs": {
+      "Color": "Black",
+      "Material": "Metal",
+      "Brand": "OPNICE",
+      "Item Weight": "2.02 Kilograms",
+      "Item dimensions L x W x H": "20.5 x 9.5 x 6.3 inches"
+    }},
+    {
+    "id": 12,
+    "name": "Amazon Basics Stapler with 1000 Staples",
+    "price": "$110.00",
+    "category": "Office Supplies",
+    "tags": ["stapler", "amazon basics", "office supplies", "stationery","desk","staples"],
+    "images": ["Products/12.jpg","Products/12a.jpg","Products/12b.jpg","Products/12c.jpg","Products/12d.jpg"],
+    "description": "Amazon Basics Stapler with 1000 Staples, Standard Size, Black (ST-BK-01)",
+    "about": [
+      "STAPLER AND STAPLES: This Amazon Basics stapler comes with 1000 standard size staples (1/4 inch) to get you started. The stapler is designed for use with standard size staples only.",
+      "DURABLE AND RELIABLE: Made of high-quality materials, this stapler is built to last and can handle frequent use in a busy office or home environment.",
+      "COMFORTABLE TO USE: The stapler features a comfortable grip and smooth operation, making it easy to staple documents quickly and efficiently.",
+      "CAPACITY: This stapler can staple up to 20 sheets of paper at once, making it ideal for everyday use in the office or at home.",
+      "EASY TO LOAD: The stapler has a top-loading design that makes it easy to reload staples when needed. Simply lift the top cover, insert the staples, and close the cover.",
+      "VERSATILE: This stapler is suitable for use on a variety of paper types and sizes, including standard letter-size paper, legal-size paper, and cardstock.",
+      "Desktop office stapler that holds up to 210 staples",
+      "an be opened 180° for tacking info to a bulletin board; rotatable anvil provides two stapling models: Temporary Stapling and Permanent Stapling"
+    ],
+    "specs": {
+      "Brand": "Amazon Basics",
+      "Color": "Black",
+      "Material": "Rubber",
+      "Product Dimensions": "6.18\"L x 2.28\"W",
+      "Number of Fasteners": 1000
+    }},
+    {
+    "id": 13,
+    "name": "Ninja Professional Blender 1000W",
+    "price": "$120.00",
+    "category": "Kitchen Appliances",
+    "tags": ["blender", "ninja", "kitchen appliances", "kitchen","smoothies","food processor"],
+    "images": ["Products/13.jpg","Products/13a.jpg","Products/13b.jpg","Products/13c.jpg","Products/13d.jpg"],
+    "description": "Ninja Professional Blender 1000W with 72oz Pitcher and 1000W Base",
+    "about": [
+      "POWERFUL BLENDING: The Ninja Professional Blender 1000W is equipped with a powerful 1000-watt motor that can easily crush ice and blend tough ingredients for smoothies, frozen drinks, and more.",
+      "LARGE CAPACITY: The 72oz pitcher is perfect for making large batches of your favorite drinks or soups, and the BPA-free construction ensures safe use.",
+      "EASY TO USE: With its simple control panel and easy-to-read measurements, this blender is user-friendly and convenient for everyday use.",
+      "VERSATILE: The Ninja Professional Blender can handle a variety of tasks, from blending and pureeing to crushing ice and making frozen desserts.",
+      "DISHWASHER SAFE: The pitcher and blades are dishwasher safe for easy cleanup, making this blender a practical choice for busy kitchens."
+    ],
+    "specs": {
+      "Brand": "Ninja",
+      "Color": "Black",
+      "Material": "Plastic",
+      "Product Dimensions": "7.5\"L x 9\"W x 17\"H",
+      "Power": "1000 Watts"
+    }
+  },
+  {
+    "id": 14,
+    "name": "HIGH QUALITY KNIFE SET WITH BLOCK",
+    "price": "$130.00",
+    "category": "Kitchen Appliances",
+    "tags": ["knife set", "kitchen", "appliances", "kitchenware","cutlery","cooking","steak knives","knifes"],
+    "images": ["Products/14.jpg","Products/14a.jpg","Products/14b.jpg","Products/14c.jpg","Products/14d.jpg"],
+    "description": "Knife Set, 15 Pcs Kitchen Knife Set with Block Self Sharpening, Dishwasher Safe, 6 Steak Knives, Anti-slip handle, Black",
+    "about": [
+      "High-Quality Blades: The knife set features high-quality stainless steel blades that are designed for precision and durability.",
+      "Self-Sharpening Block: The included knife block has a built-in self-sharpening mechanism, ensuring your knives are always sharp and ready to use.",
+      "Dishwasher Safe: All knives in the set are dishwasher safe, making cleanup easy and convenient.",
+      "Ergonomic Design: The anti-slip handles provide a comfortable and secure grip, allowing for safe and efficient cutting.",
+      "Complete Set: This 15-piece set includes all the essential knives for any kitchen task, from slicing and dicing to carving and paring.",
+      "Safety Features: The Instant Pot Duo is equipped with multiple safety features, including overheat protection, safety lid lock, and pressure release valve, ensuring safe and worry-free cooking.",
+      "Versatile Cooking Options: With 14 built-in programs, the Instant Pot Duo can be used for a variety of cooking methods, including pressure cooking, slow cooking, sautéing, steaming, and more.",
+      "Easy to Use: The intuitive control panel and large LCD display make it easy to select cooking settings and monitor progress."
+    ],
+    "specs": {
+      "Color": "Black",
+      "Brand": "Hundop",
+      "Blade Material": "Stainless Steel",
+      "Blade Edge": "Plain, Serrated",
+      "Item dimensions L x W x H": "8.5 x 5.5 x 14 inches"
+    }
+  },{
+    "id": 15,
+    "name": "COLAMY Wooden Dining Chairs Set of 4",
+    "price": "$140.00",
+    "category": "Furniture",
+    "tags": ["dining chairs", "furniture", "chairs", "wooden","kitchen chairs","beige"],
+    "images": ["Products/15.jpg","Products/15a.jpg","Products/15b.jpg","Products/15c.jpg","Products/15d.jpg"],
+    "description": "COLAMY Wooden Dining Chairs Set of 4, Modern Fabric Upholstered Kitchen Side Chairs, Farmhouse Dining Room Chair with Foot Pegs, Beige",
+    "about": [
+      "Stylish Design: The COLAMY Wooden Dining Chairs feature a modern design with fabric upholstery, making them a stylish addition to any dining room or kitchen.",
+      "Comfortable Seating: The chairs are designed for comfort, with a padded seat and backrest that provide support during meals.",
+      "Durable Construction: Made from high-quality wood, these chairs are built to last and can withstand daily use.",
+      "Versatile Use: These chairs are perfect for dining rooms, kitchens, or even as accent chairs in living spaces.",
+      "Easy Assembly: The chairs come with all the necessary hardware and instructions for quick and easy assembly.",
+      "Easy to Clean: The fabric upholstery is easy to clean and maintain, ensuring the chairs look great for years to come.",
+      "Large Capacity: The 6-quart capacity is perfect for families and can easily accommodate meals for 6 people."],
+    "specs": {
+      "Brand": "COLAMY",
+      "Color": "Beige",
+      "Product Dimensions": "20.67\"D x 22.24\"W x 31.89\"H",
+      "Size": "Set of 4",
+      "Back Style": "Solid Back"
+  }},
+  {
+    "id": 16,
+    "name": "Huuger Night Stand Set of 2",
+    "price": "$150.00",
+    "category": "Furniture",
+    "tags": ["night stand", "furniture", "bedside table", "bedroom","rustic","brown","table"],
+    "images": ["Products/16.jpg","Products/16a.jpg","Products/16b.jpg","Products/16c.jpg","Products/16d.jpg"],
+    "description": "Huuger Night Stand Set of 2, Nightstand with 2 Drawers, Bed Side Table with Open Shelf, Wooden Top, End Table, Fabric Drawer, for Bedroom, Rustic Brown",
+    "about": [
+      "Set of 2 Nightstands: This set includes two nightstands, perfect for placing on either side of a bed or in different rooms.",
+      "Ample Storage Space: Each nightstand features two drawers and an open shelf, providing plenty of space to store books, electronics, and other bedside essentials.",
+      "Sturdy Construction: Made from high-quality materials, these nightstands are built to last and can withstand daily use.",
+      "Rustic Design: The rustic brown finish and wooden top add a touch of warmth and charm to any bedroom decor.",
+      "Easy Assembly: The nightstands come with all the necessary hardware and instructions for quick and easy assembly.",
+      "Versatile Use: These nightstands can also be used as end tables in living rooms or as additional storage in other areas of the home.",
+      "Durable Finish: The rustic brown finish is designed to resist scratches and wear, ensuring the nightstands maintain their appearance over time."
+    ],
+    "specs": {
+      "Brand": "Huuger",
+      "Color": "Rustic Brown",
+      "Material": "Wood",
+      "Product Dimensions": "15.75\"D x 19.69\"W x 23.62\"H",
+      "Number of Items": 2,
+      "Manufacturer": "Huuger"
+    }}
+  ]

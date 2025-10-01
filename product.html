@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- Navbar  -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">ShopEasy</a>
+  </div>
+</nav>
+
+<!-- Product Details Section -->
+<div class="container my-5" id="product-details">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Bootstrap Carousel for multiple images -->
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner carousel-images" id="carousel-images"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2 id="product-name"></h2>
+      <h4 class="text-success" id="product-price"></h4>
+      <p id="product-description"></p>
+      
+      <h5>Specifications:</h5>
+      <ul id="product-specs"></ul>
+      <h5>About</h5>
+      <ul id="product-about"></ul>
+      <div class="mt-3">
+      </div>
+      <a href="cart.html">
+        <button class="btn btn-success" id="add-to-cart-btn">Add to Cart</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <h3>Related Products</h3>
+  <div class="row g-4" id="related-products">
+    <!-- Related products will be injected here -->
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center p-3">
+  <p>&copy; 2025 ShopEasy</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Get product ID from URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = parseInt(urlParams.get("id"));
+
+  fetch("products.json")
+    .then(response => response.json())
+    .then(products => {
+      const product = products.find(p => p.id === productId);
+
+      if (!product) {
+        document.getElementById("product-details").innerHTML = "<p>Product not found.</p>";
+        return;
+      }
+
+      // Populate product details
+      document.getElementById("product-name").textContent = product.name;
+      document.getElementById("product-price").textContent = product.price;
+      document.getElementById("product-description").textContent = product.description;
+      
+      // About section with bullet points and show more/less functionality
+      const aboutList = document.getElementById("product-about");
+      aboutList.innerHTML = ""; 
+      if (product.about && Array.isArray(product.about)) {
+        product.about.forEach((item, index) => {
+          const li = document.createElement("li");
+          li.textContent = item;
+          li.classList.add("about-item");
+          
+          // Hide items after the 3rd one initially
+          if (index >= 3) {
+            li.style.display = "none";
+            li.classList.add("hidden-item");
+          }
+          
+          aboutList.appendChild(li);
+        });
+        
+        // Add show more/less button if there are more than 3 items
+        if (product.about.length > 3) {
+          const showMoreBtn = document.createElement("button");
+          showMoreBtn.textContent = "Show more";
+          showMoreBtn.className = "btn btn-link p-0 mt-2 text-decoration-none";
+          showMoreBtn.style.fontSize = "14px";
+          showMoreBtn.onclick = function() {
+            const hiddenItems = aboutList.querySelectorAll(".hidden-item");
+            const isShowingMore = showMoreBtn.textContent === "Show more";
+            
+            if (isShowingMore) {
+              // Show all hidden items
+              hiddenItems.forEach(item => {
+                item.style.display = "list-item";
+              });
+              showMoreBtn.textContent = "See less";
+            } else {
+              // Hide items after 3rd one
+              hiddenItems.forEach(item => {
+                item.style.display = "none";
+              });
+              showMoreBtn.textContent = "Show more";
+            }
+          };
+          
+          // Add button after the about list
+          aboutList.parentNode.insertBefore(showMoreBtn, aboutList.nextSibling);
+        }
+      }
+
+      // Specs
+      const specsList = document.getElementById("product-specs");
+      for (let key in product.specs) {
+        const li = document.createElement("li");
+        li.textContent = `${key}: ${product.specs[key]}`;
+        specsList.appendChild(li);
+      }
+
+      // Carousel Images
+      const carouselInner = document.getElementById("carousel-images");
+      product.images.forEach((img, index) => {
+        const div = document.createElement("div");
+        div.className = `carousel-item ${index === 0 ? "active" : ""}`;
+        div.innerHTML = `<img src="${img}" class="d-block w-100" alt="${product.name}">`;
+        carouselInner.appendChild(div);
+      });
+
+      // Add to cart functionality
+      document.getElementById("add-to-cart-btn").addEventListener("click", function() {
+        addToCart(product);
+      });
+    })
+    .catch(error => console.error("Error loading product:", error));
+
+// Add to cart function
+function addToCart(product) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  
+  // Check if already in cart
+  let existing = cart.find(item => item.id === product.id);
+  if (existing) {
+    existing.qty += 1;
+  } else {
+    cart.push({ 
+      id: product.id,
+      name: product.name,
+      price: parseFloat(product.price.replace('$', '')),
+      image: product.images[0],
+      qty: 1 
+    });
+  }
+  
+  localStorage.setItem("cart", JSON.stringify(cart));
+  alert("Added to cart!");
+}
+
+    // Get product id from URL
+
+
+fetch("products.json")
+  .then(res => res.json())
+  .then(products => {
+    // Find current product
+    const currentProduct = products.find(p => p.id === productId);
+
+    if (currentProduct) {
+      // Filter related products by same category but different id
+      const related = products.filter(
+        p => p.category === currentProduct.category && p.id !== currentProduct.id
+      );
+
+      // Render related products
+      const relatedContainer = document.getElementById("related-products");
+      related.forEach(p => {
+        relatedContainer.innerHTML += `
+            <div class="col-md-4 ">
+            <div class="card h-100 w-100 d-flex flex-column">
+              <img src="${p.images[0]}" class="card-img-top" alt="${p.name}">
+              <div class="card-body d-flex flex-column">
+              <h5 class="card-title">${p.name}</h5>
+              <p class="card-text">${p.price}</p>
+              <a href="product.html?id=${p.id}" class="btn btn-outline-primary mt-auto">View</a>
+              </div>
+            </div>
+            </div>
+        `;
+      });
+    }
+  });
+
+</script>
+</body>
+</html>
