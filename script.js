@@ -88,4 +88,16 @@ function addToCart(product) {
 
 
 
-    
+document.querySelectorAll("#category-list .dropdown-item").forEach(item => {
+  item.addEventListener("click", (e) => {
+    e.preventDefault();
+    const category = item.getAttribute("data-category");
+
+    if (category === "All") {
+      renderProducts(allProducts);
+    } else {
+      const filtered = allProducts.filter(p => p.category === category);
+      renderProducts(filtered);
+    }
+  });
+});
