@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - ShopEasy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="navbar-placeholder"></div>
+
+<!-- About Section -->
+<div class="container my-5">
+  <h1 class="mb-4 text-center">About ShopEasy</h1>
+  <div class="row align-items-center">
+    
+    <!-- Image -->
+    <div class="col-md-6 mb-4">
+      <img src="Products/about-banner.jpg" alt="About ShopEasy" class="img-fluid rounded shadow">
+    </div>
+    
+    <!-- Text -->
+    <div class="col-md-6">
+      <h3>Who We Are</h3>
+      <p>
+        ShopEasy is your one-stop online shopping destination. We bring together the best products across clothing, electronics, shoes, and accessories — all in one place.
+      </p>
+      
+      <h3>Our Mission</h3>
+      <p>
+        We aim to make shopping easy, affordable, and enjoyable. With secure payments, fast shipping, and top-notch customer service, we ensure you always get the best shopping experience.
+      </p>
+      
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>✔ Wide range of products</li>
+        <li>✔ Affordable pricing</li>
+        <li>✔ Secure & fast checkout</li>
+        <li>✔ Dedicated customer support</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center p-3">
+  <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+  // About page only: hide search form
+  document.addEventListener("DOMContentLoaded", () => {
+    const searchForm = document.getElementById("search-form");
+    if (searchForm) searchForm.style.display = "none";
+  });
+</script>
+</body>
+</html>

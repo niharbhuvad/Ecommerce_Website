@@ -1,5 +1,9 @@
 
-
+fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
 
 // Search functionality
 const searchInput = document.getElementById("search-input");
@@ -93,6 +97,11 @@ document.querySelectorAll("#category-list .dropdown-item").forEach(item => {
     e.preventDefault();
     const category = item.getAttribute("data-category");
 
+    document.querySelectorAll("#category-list .dropdown-item").forEach(i => i.classList.remove("active"));
+
+    // Add "active" to clicked one
+    item.classList.add("active");
+
     if (category === "All") {
       renderProducts(allProducts);
     } else {
@@ -101,3 +110,5 @@ document.querySelectorAll("#category-list .dropdown-item").forEach(item => {
     }
   });
 });
+
+
